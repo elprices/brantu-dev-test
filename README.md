@@ -22,7 +22,6 @@ Hello and welcome, this test is to serve as your pre employment test to join elp
 * Fork this project add your name to rename the project. (mohamed-rizk-elprices-dev-test)
 * Clone it
 * Use this .CSV [Link Url](http://pf.tradedoubler.com/export/export?myFeed=14684056582845810&myFormat=14684056582845810 ) 
-
 * Commit When ready
 
 ### Who Should I talk to if i have questions? ###
@@ -35,7 +34,6 @@ Hello and welcome, this test is to serve as your pre employment test to join elp
 
 
 
-:
 
 
 ##############################
