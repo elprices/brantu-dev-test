@@ -41,5 +41,5 @@ Hello and welcome, this test is to serve as your pre employment test to join elp
 
 
 Stack to use: 
-- Mongodb (use mongoose to create a structured scheema)
+- Mongodb (use mongoose to create a structured schema)
 - Nodejs with express framework
