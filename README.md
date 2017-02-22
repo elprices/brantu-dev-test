@@ -12,7 +12,7 @@ Hello and welcome, this test is to serve as your pre employment test to join elp
 
 ### Brief ###
 
-* You are required to design a module that upload a .CSV file through an http request, 
+* You are required to design a module that takes a .CSV file through an http request, 
 * parse it, map data types and save it in a database architecture that you design based 
 * on the info that exist on the file. 
 * The delivery should not be more than 5 days from the invite date. 
@@ -20,7 +20,11 @@ Hello and welcome, this test is to serve as your pre employment test to join elp
 ### What are the steps ###
 
 * Fork this project add your name to rename the project. (mohamed-rizk-elprices-dev-test)
-* Clone it and commit as much possibile untill you are ready
+* Clone it
+* Use this .CSV link
+[http://pf.tradedoubler.com/export/export?myFeed=14684056582845810&myFormat=14684056582845810 ](Link URL) 
+
+* Commit When ready
 
 ### Who Should I talk to if i have questions? ###
 
