@@ -19,7 +19,7 @@ Hello and welcome, this test is to serve as your pre employment test to join elp
 
 ### What are the steps ###
 
-* Fork this project
+* Fork this project add your name to rename the project. (mohamed-rizk-elprices-dev-test)
 * Clone it and commit as much possibile untill you are ready
 
 ### Who Should I talk to if i have questions? ###
