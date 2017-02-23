@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a71b7e2-c416-4e05-afdc-2514f40c2fe9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/product.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mw/middleware.js" />
-    </list>
+    <list default="true" id="5a71b7e2-c416-4e05-afdc-2514f40c2fe9" name="Default" comment="" />
     <ignored path="elprices-dev-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
