@@ -4,9 +4,10 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
-var routes = require('./routes/index');
-var users = require('./routes/users');
+const mongoose = require('mongoose');
+const middleware = require('./mw/middleware');
+const ProductModel = require('./models/product');
+const dbConnection = require('./db');
 
 var app = express();
 
@@ -16,14 +17,27 @@ app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
+app.get('/products', function(req, res){
+	var Product = new ProductModel();
+	mongoose.model('Product').find(function(err, product){
+		res.send(product);
+	});
+});
+
+app.get('/saveproducts', function(req,res,next){
+	middleware.ImportFromCSVUrl(req, function(){
+		res.send('Data imported successfully');
+	});
+});
+
+app.get('/', function(req,res,next){
+	res.send('');
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -38,7 +52,9 @@ app.use(function(req, res, next) {
 // will print stacktrace
 if (app.get('env') === 'development') {
   app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
+
+	app.use(logger('dev'));
+	res.status(err.status || 500);
     res.render('error', {
       message: err.message,
       error: err
