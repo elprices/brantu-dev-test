@@ -37,10 +37,10 @@ Our process is simple:
 * Load Data to MongoDB. Use the products provided in products.json file
 * Setup a server and an **endpoint** for the search using Express/Mongoose.
 * Create a FrontEnd [Hint: Using Redux is a plus]
+* The Frontend should show all the products and when the user search for a specific product, the page should hit the API endpoint and get the results
 * Commit When ready
 
 ### Who Should I talk to if I have questions? ###
 You can either contact
-* Contact Ahmed Maged  => maged@brantu.com
+* Contact Mahmoud Soliman  => mahmoud.soliman@brantu.com
 * Contact Mohamed Rizk  => Rizk@brantu.com
-##############################
