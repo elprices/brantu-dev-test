@@ -30,7 +30,7 @@ Our process is simple:
 - You should use Mongoose/MongoDB as your Database
 
 ### What are the steps ###
-* Fork this project add your name to rename the project. ([firstName]-[lastName]-elprices-dev-test)
+* Fork this project add your name to rename the project. ([firstName]-[lastName]-brantu-dev-test)
 * Clone it
 * Setup React, Webpack, Express and MongoDB [hint use react-app]
 * Create The Model through Mongoose
@@ -42,5 +42,4 @@ Our process is simple:
 
 ### Who Should I talk to if I have questions? ###
 You can either contact
-* Contact Mahmoud Soliman  => mahmoud.soliman@brantu.com
 * Contact Mohamed Rizk  => Rizk@brantu.com
