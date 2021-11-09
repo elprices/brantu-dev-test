@@ -1,6 +1,6 @@
 # README #
 
-Hello and welcome, this test is to serve as your pre employment test to join elprices.com team. 
+Hello and welcome, this test is to serve as your pre employment test to join BRANTNU team. 
 
 ### Process ###
 By now you should had a preliminary meeting with the Product Manager and Tech Lead to assess your basic technical knowledge. We believe with our stack a soft engineer is an engineer who can be placed in the frontend or backend an able to perform **fullstackers**.
@@ -24,10 +24,12 @@ Our process is simple:
 
 ### Guide-rails ###
 - You should use React as your main render library.
+- User Joi for request validation
 - You should structure your code into small reusable components.
 - You should styled-components for the css code.
 - You should use Express/NodeJS as you BackEnd
 - You should use Mongoose/MongoDB as your Database
+- Use elasticsearch 7.x as your search engine tool
 
 ### What are the steps ###
 * Fork this project add your name to rename the project. ([firstName]-[lastName]-brantu-dev-test)
